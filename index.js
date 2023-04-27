@@ -11,7 +11,8 @@ require("dotenv").config();
 const app = express();
 app.use(cors({
     origin: "https://mock7-frontend-04.netlify.app",
-    allowedHeaders: ["Authorization", "Content-type", "Allow-Control-Access-Origin", "Allow-Control-Access-Credentials"]
+    allowedHeaders: ["Authorization", "Content-type", "Allow-Control-Access-Origin", "Allow-Control-Access-Credentials"],
+    credentials: true
 }))
 
 app.use(cookieSession({
