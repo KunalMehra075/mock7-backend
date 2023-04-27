@@ -14,7 +14,7 @@ passport.deserializeUser((user, done) => {
 passport.use(new GoogleStrategy({
     clientID: "508864615738-leqrhc0spsera4t23np8tnr553cg052m.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "http://localhost:4500/google/callback",
+    callbackURL: "https://mock7-backend.vercel.app/google/callback",
     passReqToCallback: true
 }, (request, accessToken, refreshToken, profile, done) => {
     console.log(profile)// ! Will remove ;
