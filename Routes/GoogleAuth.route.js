@@ -25,7 +25,7 @@ GoogleRouter.get('/auth/success', async (req, res) => {
         bio: "",
         phone: 1234567890
     }
-    res.redirect(`${HOST}/profile.html?succes="true`)
+    res.redirect(`${HOST}/success.html?username="${googleData.name}"&succes="true"`)
     console.log(googleData);
 })
 
