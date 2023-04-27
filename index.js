@@ -10,7 +10,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-    origin: "http://mock7-frontend-04.netlify.app",
+    origin: "https://mock7-frontend-04.netlify.app/",
     allowedHeaders: ["Authorization", "Content-type", "Allow-Control-Access-Origin", "Allow-Control-Access-Credentials"]
 }))
 
