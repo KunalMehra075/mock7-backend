@@ -1,0 +1,8 @@
+{
+  "name":"Kunal Mehra",
+  "image":"ChangingImage",
+  "password":"kunal123",
+  "bio":"bio",
+  "phone":1234,
+  "email":"kunalmehra240304@gmail.com"
+}
