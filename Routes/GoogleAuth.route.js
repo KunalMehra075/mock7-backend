@@ -1,7 +1,7 @@
 const GoogleRouter = require("express").Router()
 const passport = require("passport")
 // const { UserModel } = require("../Models/User.model")
-let HOST = "https://mock7-frontend-04.netlify.app/"
+let HOST = "https://mock7-frontend-04.netlify.app"
 require("../Config/Google.auth")
 GoogleRouter.get("/", passport.authenticate('google', { scope: ["email", "profile"] }))
 
